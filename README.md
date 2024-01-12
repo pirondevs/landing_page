@@ -1,2 +1,2 @@
 # landing_page
-first landing page, using HTML &amp; CSS (flex)
+My first landing page, using HTML &amp; CSS (flex)
