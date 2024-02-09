@@ -66,3 +66,15 @@
 }
 
  /* FIRST CONTENT */
+.firstContent{
+ display: flex;
+ margin: 0px 116px 57px 196px;
+}
+
+.content-text{
+font-family: outfit;
+font-size: 70PX;
+font-weight: bold;
+;
+
+}
