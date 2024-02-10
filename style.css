@@ -118,3 +118,30 @@ text-align: left;
  background: none;
  border-color: #FFF;
 }
+
+/* SECOND CONTENT */
+
+#featured{
+ font-family: outfit;
+ color: #FFF;
+ font-weight: bold;
+ padding: 27.5px 0 0 0;
+ margin: 0 116px 0 196px;
+}
+
+.secondContent{
+ display: flex;
+ background-color: rgba(128, 128, 215,.43);
+ padding: 70px 0;
+ margin: 0 116px 0 196px;
+ border-radius: 10px;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.secondContent>img{
+ max-height: 100%; 
+ max-width: 25%;
+ object-fit: contain;
+}
+
