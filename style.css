@@ -87,7 +87,7 @@ text-align: left;
 }
 
 .content-text.a>p{
- font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-family: Roboto;
  font-size: 18px;
  font-weight: regular;
  padding: 30px 0px 30px 0px;
@@ -132,7 +132,7 @@ text-align: left;
 .secondContent{
  display: flex;
  background-color: rgba(128, 128, 215,.43);
- padding: 70px 0;
+ padding: 50px 0;
  margin: 0 116px 0 196px;
  border-radius: 10px;
  justify-content: space-around;
@@ -144,4 +144,54 @@ text-align: left;
  max-width: 25%;
  object-fit: contain;
 }
+
+/*THIRD CONTENT*/
+
+.thirdContent{ 
+ display: flex;
+ align-items: center;
+ color: #FFF;
+ margin: 104px 116px 57px 196px;
+}
+
+#thirdContentOne{
+ display: block;
+}
+
+#icon_bx{
+ padding-right: 80px;
+}
+
+.content-text.b>h1{
+font-family: outfit;
+font-size: 140PX;
+font-weight: bold;
+text-align: left;
+}
+
+.content-text.b>p{
+ font-family: Roboto;
+ font-size: 18px;
+ font-weight: regular;
+ padding: 30px 0px 30px 0px;
+ }
+
+.thirdContent #viewPrice{
+ font-family: outfit;
+ font-weight: bold;
+ font-size: 20px;
+}
+
+#viewPrice{
+	color: #FFF;
+	border-radius: 40px;
+	padding: 30px 80px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+ background: #8080D7;
+ border: none;
+}
+
+/* FOUR CONTENT */
 
