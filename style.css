@@ -240,3 +240,63 @@ text-align: left;
  background: #8080D7;
  border: none;
 }
+
+/* TESTIMONIALS */
+
+.testiTitle{
+ font-family: outfit;
+ font-size: 30px;
+ font-weight: bold;
+ color: #AAD9D9 ;
+ text-align: center;
+ margin: 80px 0 44px 0;
+}
+
+#testiHeader{
+ font-family: outfit;
+ font-size: 60px;
+ font-weight: bold;
+ color: #FFF;
+ text-align: center;
+}
+
+.testimonial{
+ display: flex;
+ margin: 43px 116px 160px 196px;
+}
+
+.test>img{
+ position: absolute;
+ margin-left: 150px;
+ justify-content: center;
+ border-radius: 50%;
+ object-fit: cover;
+ z-index: 1;
+}
+
+.test>img:hover{
+ opacity: 0.5;
+}
+
+.testTxt{
+ z-index: -1;
+ background-color: rgba(128, 128, 215,.50);
+ color: #FFF;
+ margin: 230px 0 0 10px;
+ border-radius: 30px;
+}
+
+.testTxt-Name{
+ font-family: outfit;
+ font-size: 30px;
+ font-weight: bold;
+ text-align: center;
+ padding: 80px 0 20px;
+}
+
+.testTxt-P{
+ font-family: outfit;
+ font-size: 30px;
+ text-align: center;
+ padding: 40px;
+}
