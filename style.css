@@ -300,3 +300,39 @@ text-align: left;
  text-align: center;
  padding: 40px;
 }
+
+/* FIFTH CONTENT */
+
+.fithContent{
+ margin: 116px 57px 196px;
+ text-align:center;
+ font-family: outfit;
+ background: linear-gradient(to right, rgb(128, 128, 215), rgb(170, 217, 217));;
+ border-radius: 150px;
+}
+
+.question{
+ font-size: 35px;
+ font-weight: bold;
+ padding: 50px 0 10px;
+}
+
+.fithContent>h1{
+ color: #FFF;
+ font-weight: bold;
+ font-size: 90px;
+ padding: 59px 0 20px;
+}
+
+.fithContent>input{
+ background-color: black;
+ font-family: outfit;
+ font-size: 20px;
+ color: white;
+	border-radius: 40px;
+	padding: 30px 110px;
+ margin: 80px 0;
+	cursor: pointer;
+	outline: inherit;
+}
+
