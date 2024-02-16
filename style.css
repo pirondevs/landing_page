@@ -376,9 +376,7 @@ all: unset;
 
 .newsletter #submit{
  background-color: rgba(217, 217, 217,0.4);
- margin: ;
  height: 40px;
- width;
  padding: 0 50px;
  border-radius: 25px;
  z-index: 0;
