@@ -367,11 +367,31 @@ text-align: left;
  padding: 0 0 15px;
 }
 
+.newsletter{
+ position: relative;
+}
 .newsletter input{
- border: none;
- padding: 0;
- margin: 0;
- font-family: inherit;
- color: inherit;
- text-align: inherit;
+all: unset;
+}
+
+.newsletter #submit{
+ background-color: rgba(217, 217, 217,0.4);
+ margin: ;
+ height: 40px;
+ width;
+ padding: 0 50px;
+ border-radius: 25px;
+ z-index: 0;
+}
+
+.newsletter #btn-email{
+ position: absolute;
+ background-color: #8080D7;
+ font-family: roboto;
+ font-size: 20px;
+ font-weight: bold;
+ padding: 9px 15px;
+ border-radius: 25px;
+ z-index: 2;
+ right: 0;
 }
